@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Guntur Oktavianto Nugroho</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+        <script
+            src="https://kit.fontawesome.com/a5ec48b1f3.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a href="/" class="navbar">Home</a></li>
+                <li><a href="#education" class="navbar">Education</a></li>
+                <li><a href="#projects" class="navbar">Projects</a></li>
+                <li><a href="#contact" class="navbar">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <div class="photo">
+                <img src="photo.jpeg" alt="guntur's profile picture" />
+            </div>
+            <div class="desc-hero">
+                <h1 class="name">
+                    Hi, I'm Guntur Oktavianto <i class="fa fa-hand-o-left"></i>
+                </h1>
+                <h2>
+                    Interested in
+                    <span
+                        id="typed-text"
+                        style="
+                            font-size: 25px;
+                            font-weight: 500;
+                            text-align: left;
+                        "
+                    ></span>
+                </h2>
+            </div>
+        </div>
+        <main>
+            <div id="education">
+                <h1>Education</h1>
+                <div class="container-education">
+                    <div class="desc-education">
+                        <h2>Institut Teknologi Bandung</h2>
+                        <h3 class="major">
+                            Information Systems and Technology
+                        </h3>
+                        <p>2022-2026</p>
+                    </div>
+                    <img src="logo_itb.png" alt="logo itb" class="logo-itb" />
+                </div>
+            </div>
+            <div id="projects">
+                <h1>Projects</h1>
+                <a href="https://tedxitb.id/">
+                    <div class="container">
+                        <div class="box">
+                            <h2 class="project-name">TEDx ITB 7.0</h2>
+                            <img src="tedxitb.png" alt="" />
+                            <p>Tech stack: <strong>Nextjs, Tailwind</strong></p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://tecitb.com/">
+                    <div class="container">
+                        <div class="box">
+                            <h2 class="project-name">TEC ITB's Landing Page</h2>
+                            <img src="tec.png" alt="" />
+                            <p>
+                                Tech stack:
+                                <strong
+                                    >Nextjs, Tailwind, Shadcn UI,
+                                    MongoDB</strong
+                                >
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.tec-festival.com/">
+                    <div class="container">
+                        <div class="box">
+                            <h2 class="project-name">TEC Festival 2023</h2>
+                            <img src="tecfest.png" alt="" />
+                            <p>Tech stack: <strong>Nextjs, Tailwind</strong></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div id="contact">
+                <h1>Contact</h1>
+                <ul>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:18222088@std.stei.itb.ac.id">
+                            18222088@std.stei.itb.ac.id</a
+                        >
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <a
+                            href="https://www.linkedin.com/in/guntur-oktavianto-nugroho/"
+                        >
+                            Linkedin
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-github"></i
+                        ><a href="https://github.com/gunturoktavianto">
+                            Github</a
+                        >
+                    </li>
+                </ul>
+            </div>
+            <script>
+                var typed = new Typed("#typed-text", {
+                    strings: ["web development", "mobile development"],
+                    typeSpeed: 30,
+                    backSpeed: 20,
+                    loop: true,
+                    showCursor: false,
+                });
+            </script>
+        </main>
+        <footer>
+            <p>&copy; 2024 Guntur Oktavianto Nugroho. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
